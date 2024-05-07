@@ -1,15 +1,15 @@
 import java.util.Scanner;
-class Clg9{
+class Leap{
     public static void main(String a[]){
         Scanner s=new Scanner(System.in);
-        System.out.println("enter the value of n");
-        int n=s.nextInt();
-
-        if((n%4==0 && n/100!=0 && n%400==0)){
-            System.out.print("n is leapyear");
-        }
-        else{
-            System.out.print("n is not a leap year");
-        }
+        System.out.println("enter the value of m");
+        int m=s.nextInt();
+         
+         if((m%4==0)||(m%100!=0)&&(m%400==0)){
+            System.out.println("year is leap year");
+         }
+         else{
+            System.out.println(" year is not a leap year");
+         }
     }
 }
